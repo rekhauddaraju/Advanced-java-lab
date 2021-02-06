@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Online Shop</title>
+</head>
+<body>
+	<form action="./ShopServlet" method="post">
+		<table border=2 style="background-color:pink">
+			<tr>
+				<th>Book Name</th>
+				<th>Book cost</th>
+				<th>Count</th>
+			</tr>
+			<tr>
+				<td>Book-1</td>
+				<td>2 <input type="hidden" name="Book1cost" value=2></td>
+				<td><input type="text" name="Book1"></td>
+			</tr>
+			<tr>
+				<td>Book-2</td>
+				<td>10 <input type="hidden" name="Book2cost" value=10></td>
+				<td><input type="text" name="Book2"></td>
+			</tr>
+			<tr>
+				<td>Book-3</td>
+				<td>20000 <input type="hidden" name="Book3cost" value=20000></td>
+				<td><input type="text" name="Book3"></td>
+			</tr>
+			<tr>
+				<td>Book-4</td>
+				<td>5000 <input type="hidden" name="Book4cost" value=5000></td>
+				<td><input type="text" name="Book4"></td>
+			</tr>
+			<tr>
+				<center><td colspan=3><input type=submit value="submit"></td></center>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
